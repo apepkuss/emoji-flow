@@ -1,0 +1,12 @@
+[package]
+edition = "2021"
+name = "emoji-flow"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+lazy_static = "1.4.0"
+wasmedge-bindgen = "0.4.0"
+wasmedge-bindgen-macro = "0.4.0"
